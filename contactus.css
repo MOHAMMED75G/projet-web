@@ -38,8 +38,8 @@ html::-webkit-scrollbar-thumb{
 }
 
 body{
-    background:#ffffff;
-    background-image: url(second.png);
+    background:#6c6a6a;
+    background-image: url("photo.png");
     overflow-x: hidden;
     padding-left: 35rem;
 }
@@ -50,7 +50,7 @@ section{
 }
 .b{
     text-align: center;
-    color: var(--green);
+    color: #cdf256;
   margin: 10px 10px; 
   
   font-size: 25px;
@@ -86,11 +86,11 @@ header{
    width: 150px;
    height: 50px;
    border-color: rgb(28, 28, 42);
-   
+   margin-left: 40px;
 
 }
 .nav:hover{
-    background-color: rgb(13, 91, 65);
+    background-color: r#cdf256;
 }
 button{
     cursor: pointer;
@@ -120,9 +120,23 @@ main
     padding: 3%;
 }
 
+.btn{
+	width: 250px;
+	padding: 10px 20px;
+	background-color:#053c87;
+	font-size: 20px;
+	border-radius: 30px;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	animation-name: headermain;
+	animation-duration: 4.5s;
+	animation-timing-function: ease;
+    margin: 10px;
+}
 .input-group, .textarea-group
 {
-    padding: 1% 0;
+    padding: 4% 0;
     
 }
 
@@ -141,7 +155,7 @@ input:focus, textarea:focus
 {
     background-color: transparent;
     outline: transparent;
-    border-bottom: 2px solid #69f0ae;
+    border-bottom: 2px solid #cdf256;
 }
 
 input::placeholder, textarea::placeholder
@@ -162,14 +176,14 @@ label
 input:focus ~ label, input:not(:placeholder-shown) ~ label
 { 
     top: -4em;
-    color: #69f0ae;
+    color: #cdf256;
     font-size: 15px;
 }
 
 textarea:focus ~ label, textarea:not(:placeholder-shown) ~ label
 {
     top: -10.5em;
-    color: #69f0ae;
+    color: #cdf256;
     font-size: 15px;
 }
 
