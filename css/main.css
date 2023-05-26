@@ -1,4 +1,4 @@
-/*ПОДКЛЮЧЕНИЕ ШРИФТОВ*/
+
 /*@font-face {
 	font-family: 'Furore';
 	src: url('fonts/furore.eot');
@@ -100,7 +100,7 @@ ul, li {
 	animation-duration: 4.5s;
 	animation-timing-function: ease;
 }
-/*анимация хедера*/
+
 
 @keyframes headermain {
     0%{
@@ -111,7 +111,7 @@ ul, li {
         opacity: 1;
     }
 }
-/*анимация стрелки*/
+/*ARROW*/
 .arrow-down {
     padding-bottom: 60px;
 }
@@ -136,7 +136,7 @@ ul, li {
 
 
 
-/*БЛОК "О НАС"*/
+/*block1*/
 .block1{
 	display: flex;
 	justify-content: space-around;
@@ -144,7 +144,7 @@ ul, li {
 	padding-bottom: 60px;
 	padding-top: 117px;
 }
-/*фотографии*/
+/*about */
 .slide1, .slide2, .slide3,.slide4,.slide5,.slide6{
 	width: 820px;
 	height: 480px;
@@ -167,7 +167,7 @@ ul, li {
 .slide6{
 	background-image: url('../img/eight.png');
 	background-size: cover;}
-/*текстовая часть блока "о нас" */
+/*about */
 .about{
 	width: 460px;
 	position: relative;
@@ -180,7 +180,7 @@ ul, li {
 	font-size: 18px;
 	color: #ECEDF6;
 	font-family: 'Courier New', Courier, monospace;}
-/*БЛОК "ОСНОВНЫЕ ЗАДАЧИ" */
+
 .tasktext{
 	font-size: 20px;
 	color: black;}
@@ -209,7 +209,7 @@ ul, li {
 	font-size: 64px;
 	color: rgb(153, 153, 11);
 	padding-bottom: 87px;}
-/*БЛОК "УСПЕШНЫЕ ПРОЕКТЫ"*/
+/*block2*/
 .block2{
 	background-color: #ECEDF6;
 	border-radius: 30px;
@@ -240,7 +240,7 @@ ul, li {
 	justify-content: space-evenly;
 	align-items: center;
 	height: 560px;}
-/*БЛОК "НАСТАВНИКИ И ВОЖДИ" */
+/*bloc2 */
 .block3{
 	background-color: #222;
 	border-radius: 30px;
@@ -276,130 +276,9 @@ ul, li {
 	padding: 20px;
   }
   .tab.is-active { display: block;border-radius: 30px;  }
-/*подблок "наставники" */
-.fio{
-	font-size: 20px;
-	color: #f5e830;
-	padding-bottom: 10px;
-}
-.fio2{
-	font-size: 16px;
-	color: #f5e830;
-	padding-bottom: 10px;
-	
-}
-.fio__about{
-	font-size: 20px;
-	color:white;
-	font-family: 'Courier New', Courier, monospace;
-	padding-bottom: 50px;
-}
-.about2{
-	font-size: 16px;
-}
-.fio_txtpart{
-	width: 250px;
-}
-.fio_imgpart{
-	padding-bottom: 20px;
-}
-.slider30__slide1,.slider30__slide2,.slider30__slide3,.slider30__slide4,.vojd_conteiner__man{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-}
-/*подблок "вожди" */
-.vojdi{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-}
-
-/*БЛОК "УЧАСТНИКИ" */
-#block4{
-	padding-top: 50px;
-	background-color: #ECEDF6;
-	border-radius: 30px;
-	padding-bottom: 100px;
-}
-
-.block4__txt_1{
-	padding-top: 50px;
-	font-size: 64px;
-	color: #053c87;
-	padding-bottom: 30px;}
-.block4__txt_2{
-	font-size: 20px;
-	color: #78777D;
-	text-align: center;
-	padding-bottom: 50px;
-	max-width: 930px;
-	}
-.block4__txt{
-	width: 80%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	margin: 0 auto;
-}
 
 
-
-
-.fi__about{
-	color: black;
-	font-size: 16px;
-	font-family: 'Courier New', Courier, monospace;
-	width: 160px;
-}
-.fi{
-	font-size: 24px;
-	color: #053c87;
-	padding-bottom: 20px;
-}
-.line{
-	width: 82px;
-	height: 1px;
-	background-color: #053c87;
-	margin-bottom: 25px;
-}
-.slider4__slide{
-	margin: 0 auto;
-	width: 217px;
-	height: 373px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-    justify-content: center;
-    align-content: center;
-	width: 217px;
-	height: 373px;
-	background-color: #FFF;
-	border-radius: 60px;
-	text-align: center;
-	bottom: 30px;
-}
-.fi_imgpart{
-	padding-bottom: 10px;
-	padding-top: 18px;
-}
-#slider4{
-	max-width: 1300px;
-	margin: 0 auto;
-	
-	
-}
-
-.slider_conteiner4{
-	position: relative;
-	max-width: 1650px;
-	margin: 0 auto;
-	
-}
-
-/*БЛОК "КАК ПОПАСТЬ" */
+/*block3 */
 
 .block5{
 	background-color: #222;
@@ -429,3 +308,18 @@ ul, li {
 	justify-content: space-around;
 }
 
+<<<<<<< HEAD
+=======
+.btns{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.sc{
+  height: 20px;
+  width: 20px;
+
+}
+>>>>>>> 469f104e7b00fe99a008020d304fe07917fe3d55
