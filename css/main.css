@@ -1,16 +1,4 @@
 
-/*@font-face {
-	font-family: 'Furore';
-	src: url('fonts/furore.eot');
-	src: url('fonts/furore.eot?#iefix') format('embedded-opentype'),
-		 url('fonts/furore.svg#Furore') format('svg'),
-		 url('fonts/furore.ttf') format('truetype'),
-		 url('fonts/furore.woff') format('woff'),
-		 url('fonts/furore.woff2') format('woff2');
-	font-weight: normal;
-	font-style: normal;
-  }
-*/
 body {
 	font-family: 'Russo One', sans-serif;
 	padding: 0;
@@ -27,21 +15,20 @@ ul, li {
 	margin: 0 auto;
 }
 
-/*HEADER*/
+ .task a{
+	text-decoration: none;
+ }
 .header{
 	background-color: #222;
 	border-radius: 0px 0px 30px 30px;
 }
 
 .menu-box {
-	background-color: #29435c;
-	margin-left: 20%;
 	display: flex;
 	align-items: center;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 30px;
+	padding-bottom: 110px;
 	flex-direction: column;
-	position: fixed;
 
 	
 }
@@ -77,30 +64,23 @@ ul, li {
 	animation-duration: 3s;
 	animation-timing-function: ease;
 }
-.nameCifromoll{
+
+.link1{
+	background-color: #f5e830;
+	border-radius: 20px;
+	padding: 10px;
+}
+.name{
 	font-size: 90px;
 	animation-name: headermain;
 	animation-duration: 3s;
 	animation-timing-function: ease;
 }
-.postnameCifromoll{
+.postname{
 	font-size: 32px;
 	padding-bottom: 26px;
 	animation-name: headermain;
 	animation-duration: 3s;
-	animation-timing-function: ease;
-}
-.btn1{
-	width: 300px;
-	padding: 10px 20px;
-	background-color:#053c87;
-	font-size: 18px;
-	border-radius: 50px;
-	text-decoration: none;
-	color: white;
-	text-align: center;
-	animation-name: headermain;
-	animation-duration: 3.5s;
 	animation-timing-function: ease;
 }
 .btn{
@@ -127,7 +107,7 @@ ul, li {
         opacity: 1;
     }
 }
-/*ARROW*/
+
 .arrow-down {
     padding-bottom: 60px;
 }
@@ -151,22 +131,18 @@ ul, li {
 }
 
 
-
-/*block1*/
 .block1{
 	display: flex;
-	background-color: #222;
 	justify-content: space-around;
 	align-items: center;
 	padding-bottom: 60px;
-	padding-top: 100px;
-	padding:100px;
+	padding-top: 117px;
 }
-/*about */
+
 .slide1, .slide2, .slide3,.slide4,.slide5,.slide6{
-	width: 800px;
+	width: 820px;
 	height: 480px;
-	border-radius: 40px;}
+	border-radius: 30px;}
  .slide1{
 	background-image: url('../img/second.png');
 	background-size: cover;}
@@ -185,7 +161,7 @@ ul, li {
 .slide6{
 	background-image: url('../img/eight.png');
 	background-size: cover;}
-/*about */
+
 .about{
 	width: 460px;
 	position: relative;
@@ -200,7 +176,7 @@ ul, li {
 	font-family: 'Courier New', Courier, monospace;}
 
 .tasktext{
-	font-size: 50px;
+	font-size: 20px;
 	color: black;}
 .task {
 	width: 410px;
@@ -222,14 +198,13 @@ ul, li {
 	justify-content: center;
 	align-items: center;}
 .task_header{
-	
 	padding-top: 100px;
 	font-size: 64px;
-	color: rgb(153, 153, 11);
+	color: #053c87;
 	padding-bottom: 87px;}
-/*block2*/
+
 .block2{
-	background-color: #eeeed3;
+	background-color: #ECEDF6;
 	border-radius: 30px;
 	padding-top: 30px;
 	padding-bottom: 30px;}
@@ -247,7 +222,7 @@ ul, li {
 	color: #f5e830;
 	padding-bottom: 10px;}
 .slide__about{
-	font-size: 15px;
+	font-size: 20px;
 	font-family: 'Courier New', Courier, monospace;
 	color: black;
 	padding-bottom: 30px;}
@@ -258,9 +233,9 @@ ul, li {
 	justify-content: space-evenly;
 	align-items: center;
 	height: 560px;}
-/*bloc2 */
+
 .block3{
-	background-color: #29435c;
+	background-color: #222;
 	border-radius: 30px;
 	padding-top: 30px;
 	padding-bottom: 30px;
@@ -295,11 +270,132 @@ ul, li {
   }
   .tab.is-active { display: block;border-radius: 30px;  }
 
+.fio{
+	font-size: 20px;
+	color: #f5e830;
+	padding-bottom: 10px;
+}
+.fio2{
+	font-size: 16px;
+	color: #f5e830;
+	padding-bottom: 10px;
+	
+}
+.fio__about{
+	font-size: 20px;
+	color:white;
+	font-family: 'Courier New', Courier, monospace;
+	padding-bottom: 50px;
+}
+.about2{
+	font-size: 16px;
+}
+.fio_txtpart{
+	width: 250px;
+}
+.fio_imgpart{
+	padding-bottom: 20px;
+}
+.slider30__slide1,.slider30__slide2,.slider30__slide3,.slider30__slide4,.vojd_conteiner__man{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
 
-/*block3 */
+.vojdi{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
+#block4{
+	padding-top: 50px;
+	background-color: #ECEDF6;
+	border-radius: 30px;
+	padding-bottom: 100px;
+}
+
+.block4__txt_1{
+	padding-top: 50px;
+	font-size: 64px;
+	color: #053c87;
+	padding-bottom: 30px;}
+.block4__txt_2{
+	font-size: 20px;
+	color: #78777D;
+	text-align: center;
+	padding-bottom: 50px;
+	max-width: 930px;
+	}
+.block4__txt{
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 auto;
+}
+
+
+
+
+.fi__about{
+	color: black;
+	font-size: 16px;
+	font-family: 'Courier New', Courier, monospace;
+	width: 160px;
+}
+.fi{
+	font-size: 24px;
+	color: #053c87;
+	padding-bottom: 20px;
+}
+.line{
+	width: 82px;
+	height: 1px;
+	background-color: #053c87;
+	margin-bottom: 25px;
+}
+.slider4__slide{
+	margin: 0 auto;
+	width: 217px;
+	height: 373px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    justify-content: center;
+    align-content: center;
+	width: 217px;
+	height: 373px;
+	background-color: #FFF;
+	border-radius: 60px;
+	text-align: center;
+	bottom: 30px;
+}
+.fi_imgpart{
+	padding-bottom: 10px;
+	padding-top: 18px;
+}
+#slider4{
+	max-width: 1300px;
+	margin: 0 auto;
+	
+	
+}
+
+.slider_conteiner4{
+	position: relative;
+	max-width: 1650px;
+	margin: 0 auto;
+	
+}
+
+
 
 .block5{
-	background-color:  #222;
+	background-color: #222;
 	border-radius: 30px 30px 0px 0px;
 	padding-top: 100px;
 	padding-bottom: 50px;
@@ -326,18 +422,44 @@ ul, li {
 	justify-content: space-around;
 }
 
-<<<<<<< HEAD
-=======
 .btns{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
-
-
-.sc{
-  height: 20px;
-  width: 20px;
-
-}
->>>>>>> 469f104e7b00fe99a008020d304fe07917fe3d55
+#button {
+	display: inline-block;
+	background-color: #FF9800;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	border-radius: 4px;
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	transition: background-color .3s, 
+	  opacity .5s, visibility .5s;
+	opacity: 0;
+	visibility: hidden;
+	z-index: 1000;
+  }
+  #button::after {
+	content: "\f077";
+	font-family: FontAwesome;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 2em;
+	line-height: 50px;
+	color: #fff;
+  }
+  #button:hover {
+	cursor: pointer;
+	background-color: #333;
+  }
+  #button:active {
+	background-color: #555;
+  }
+  #button.show {
+	opacity: 1;
+	visibility: visible;
+  }

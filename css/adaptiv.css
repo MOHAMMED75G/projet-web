@@ -1,4 +1,4 @@
-/*здесь будет адаптивность*/
+
 
 @media screen and (max-width: 1601px) {
 	.container {
@@ -67,7 +67,7 @@
 		flex-direction: column;
 	}
 }
-/*здесь будет бургер меню 1300=769*/
+
 @media screen and (min-width: 1140px) {
 	.block3__box{
 		width: 1074px;
@@ -156,10 +156,10 @@
 	.container {
 		width: 465px;
 	}
-	.nameCifromoll {
+	.name {
 		font-size: 47px;
 	}
-	.postnameCifromoll {
+	.postname{
 		font-size: 20px;
 	}
 	.menu-icon {
@@ -253,10 +253,10 @@
 	.container {
 		width: 325px;
 	}
-	.nameCifromoll {
+	.name {
 		font-size: 47px;
 	}
-	.postnameCifromoll {
+	.postname {
 		font-size: 20px;
 	}
 	.menu-icon {
@@ -334,13 +334,6 @@
 		text-align: center;
 		
 	}
-
-
-
-
-
-
-
 	 
 }
 @media screen and (max-width: 370px) {
@@ -350,10 +343,10 @@
 	.about__txt1 {
 		font-size: 57px;
 	}
-	.nameCifromoll {
+	.name {
 		font-size: 36px;
 	}
-	.postnameCifromoll {
+	.postname {
 		font-size: 14px;
 	}
 	.menu-icon {
